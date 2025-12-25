@@ -6,7 +6,7 @@ cask "phtv" do
       verified: "github.com/PhamHungTien/"
   name "PHTV"
   name "Precision Hybrid Typing Vietnamese"
-  desc "Modern Vietnamese input method for macOS"
+  desc "Modern Vietnamese input method"
   homepage "https://phamhungtien.com/PHTV/"
 
   # Universal Binary - supports both Intel and Apple Silicon
@@ -28,9 +28,9 @@ cask "phtv" do
 
   zap trash: [
     "~/Library/Application Support/PHTV",
-    "~/Library/Preferences/com.phamhungtien.phtv.plist",
     "~/Library/Caches/com.phamhungtien.phtv",
     "~/Library/Logs/PHTV",
+    "~/Library/Preferences/com.phamhungtien.phtv.plist",
   ]
 
   caveats <<~EOS
