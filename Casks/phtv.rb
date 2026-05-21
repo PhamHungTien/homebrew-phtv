@@ -4,18 +4,18 @@
 cask "phtv" do
   arch arm: "arm64", intel: "intel"
 
-  version "3.1.7"
+  version "3.1.8"
   if version.to_s == "2.6.6"
     sha256 "ad4132a20aebe701f418a3196a0075ccb91277b4a156932192f91c8fd7f1d045"
     url "https://github.com/PhamHungTien/PHTV/releases/download/v#{version}/PHTV-#{version}.dmg",
         verified: "github.com/PhamHungTien/"
   else
     on_arm do
-      sha256 "ef52bdbc6c9d3fdc64dda45dba0fc2e8d4ae3449b725ca0fd701fa797613b641"
+      sha256 "d1e19f5a74dfc4a141a121a0f6beb6b1c17f2bb61922d8f87d817638cb5e1e5c"
     end
 
     on_intel do
-      sha256 "ab544539a924cfec48796dd227cbf65264bf0fff9fb901185a12f4d8546efeda"
+      sha256 "f9e5ccb2f12ef9b93b59e945314eda5e2aeb9862766e365f6474ff3c98a614b0"
     end
 
     url "https://github.com/PhamHungTien/PHTV/releases/download/v#{version}/PHTV-#{version}-#{arch}.dmg",
