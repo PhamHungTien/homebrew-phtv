@@ -11,11 +11,11 @@ cask "phtv" do
         verified: "github.com/PhamHungTien/"
   else
     on_arm do
-      sha256 "69b3de2a5971aa7b8fb9aa9bbdf9b981e5bfe74229efc7b66b69ddb573c1d019"
+      sha256 "bd32eae14cf9f552b39e4bb7587a4a1ce555578f9e856ef5375fbf0debf0e202"
     end
 
     on_intel do
-      sha256 "20ac8054d839a4fce315971ecafe460a961ffbc9b49d278de22579abd7dc2ac7"
+      sha256 "efc6e26234bb18a01b2fa9f235ed07ea6b16295825af07624d8b979d86efbae8"
     end
 
     url "https://github.com/PhamHungTien/PHTV/releases/download/v#{version}/PHTV-#{version}-#{arch}.dmg",
